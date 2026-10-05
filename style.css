@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
+/* To DO:
+- Fontit
+- Tekstin väri
+- Kuvien koko
+- Kuvien muotoilu
+- Kielioppi */
+
 body::after{
     position:absolute;
     width: 0;
