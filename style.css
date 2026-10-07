@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
-
-/* To DO:
-- Fontit
-- Tekstin väri
-- Kuvien koko
-- Kuvien muotoilu
-- Kielioppi */
+@import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
 body::after{
     position:absolute;
@@ -17,18 +12,17 @@ body::after{
 }
 
 .etuotsikko{
-    font-family: "Pirata One", system-ui;
+    font-family: "Isometra", system-ui;
     font-size: 114px;
     text-align: center;
     color: #2b221a;
     text-shadow: 3px 3px 5px rgba(255,155,0,.27);
     font-weight: bold;
     font-style: italic;
-
 }
 
 .blogiteksti{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
     font-size: 22px;
     text-align: center;
     font-style: italic;
@@ -37,7 +31,7 @@ body::after{
 }
 
 .blogiotsikko{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
     font-size: 42px;
     font-style: italic;
     text-align: center;
@@ -46,7 +40,7 @@ body::after{
 }
 
 .sivuotsikko{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Isometra', Courier, monospace;
     font-size: 32px;
     font-style: italic;
     text-align: center;
